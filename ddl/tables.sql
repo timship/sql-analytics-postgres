@@ -1,3 +1,4 @@
+-- Создаем централизованное место хранения всей информация о маршрутах
 create table routes (
 	flight_no 			char(6) primary key, 		-- номер рейса
 	departure_airport 	char(3),		    	  -- код аэропорта вылета
@@ -7,6 +8,7 @@ create table routes (
 													                которая будет рассчитана как разница между запланированными временами вылета и прилета*/
 );
 
+--Заполняем таблицу данными
 insert into routes (flight_no,departure_airport,arrival_airport,aircraft_code,duration)
 select 
 		distinct flight_no	::char(6),
