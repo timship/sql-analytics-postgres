@@ -17,7 +17,9 @@ sql-analytics-postgres/
 ddl/                  # Table and view definitions, partitioning
 
    ── tables.sql
+   
    ── views.sql
+   
    ── partitions.sql
 
 functions/            # Business logic functions
@@ -35,6 +37,7 @@ marts/                # Analytical data marts
 optimization/         # Indexes and system checks
 
    ── partitions_by_month.sql
+   
    ── query_based_optimization.sql
 
 └── README.md
