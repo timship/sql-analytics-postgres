@@ -15,29 +15,30 @@ This repository demonstrates analytical modeling and SQL engineering using Postg
 sql-analytics-postgres/
 
 ├── ddl/                  # Table and view definitions, partitioning
-│   ├── tables.sql
 
-│   ├── views.sql
+│   ── tables.sql
 
-│   └── partitions.sql
+│   ── views.sql
+
+│   ── partitions.sql
 
 ├── functions/            # Business logic functions
 
-│   └── flight_seat_functions.sql
+│   ── flight_seat_functions.sql
 
 ├── procedures/           # Procedures to refresh data marts
 
-│   └── load_bookings_json.sql
+│   ── load_bookings_json.sql
 
 ├── marts/                # Analytical data marts
 
-│   └── fct_flights.sql
+│   ── fct_flights.sql
 
 ├── optimization/         # Indexes and system checks
 
-│   ├── partitions_by_month.sql
+│   ── partitions_by_month.sql
 
-│   └── query_based_optimization.sql
+│   ── query_based_optimization.sql
 
 └── README.md
 
