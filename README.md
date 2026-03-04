@@ -13,8 +13,8 @@ This repository demonstrates analytical modeling and SQL engineering using Postg
 ```
 
 sql-analytics-postgres/
-├── ddl/                  # Table and view definitions, partitioning
 
+├── ddl/                  # Table and view definitions, partitioning
 │   ├── tables.sql
 
 │   ├── views.sql
